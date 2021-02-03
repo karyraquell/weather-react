@@ -1,0 +1,145 @@
+.Container {
+  padding-top: 15px;
+}
+
+.Nav {
+  max-width: 50%;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: bold;
+  background: #adcbfe;
+  border-radius: 10px;
+  padding: 5px 5px;
+}
+
+.Weather {
+  margin: 20px auto 0px;
+  padding: 25px 0px;
+  border: 5px solid #fff;
+  border-radius: 30px;
+  max-width: 55%;
+  background-image: linear-gradient(to top left, #84b1fd, #d3e3ff);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.Forecast {
+  max-width: 65%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  margin: 30px auto;
+}
+
+.Icon {
+  font-size: 120px;
+  margin-left: 0%;
+  width: 200px;
+}
+
+.enterCity,
+.searchCity,
+.searchIcon,
+.searchCurrent {
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  border: 1px solid #adcbfe;
+}
+
+.enterCity {
+  color: #adcbfe;
+  padding: 10px 47px;
+}
+
+.searchCity,
+.searchCurrent {
+  padding: 10px 20px;
+}
+.searchCity {
+  background: #adcbfe;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.searchCurrent {
+  background: #fff;
+  border: 1px solid #adcbfe;
+  color: #adcbfe;
+}
+
+.highLow,
+.Precipitation,
+.Wind {
+  padding: 30px 5px;
+  text-align: center;
+  border-radius: 35px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: #adcbfe;
+}
+
+.Precipitation {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.Icon {
+  font-size: 120px;
+  margin-left: 0%;
+  width: 200px;
+}
+
+.Wrapper {
+  color: #fff;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.Temp {
+  font-size: 80px;
+  margin-left: 35%;
+  position: relative;
+  top: -40px;
+  font-family: "Play", sans-serif;
+}
+
+.Units {
+  position: relative;
+  top: -80px;
+  right: 1px;
+  font-size: 20px;
+}
+
+.todayWeather {
+  margin-left: 13%;
+}
+
+.feelsLike {
+  margin-left: 50%;
+  position: relative;
+  top: -60px;
+}
+
+.todayWeather,
+.feelsLike {
+  font-size: 20px;
+  font-family: "Play", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: #fff;
+  font-family: "Play", sans-serif;
+  font-size: 40px;
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+a {
+  display: inline-block;
+}
