@@ -18,13 +18,13 @@ export default function Weather() {
         </span>
         <span className="Temp">7</span>
         <span className="Units">
-          <a href="#" id="celsius">
+          <button id="celsius">
             °C
-          </a>
+          </button>
           |
-          <a href="#" id="fahrenheit">
+          <button id="fahrenheit">
             °F
-          </a>
+          </button>
         </span>
         <span className="todayWeather" id="description">
           Rain

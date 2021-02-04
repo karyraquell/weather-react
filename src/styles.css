@@ -106,7 +106,7 @@
   position: relative;
   top: -80px;
   right: 1px;
-  font-size: 20px;
+  font-size: 20px;;
 }
 
 .todayWeather {
@@ -142,4 +142,13 @@ p {
 
 a {
   display: inline-block;
+}
+
+#celsius, #fahrenheit{
+  padding: 0px;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  background-color: #adcbfe;
+  color: #811ddf;
 }
