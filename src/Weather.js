@@ -13,6 +13,7 @@ export default function Weather() {
           <img
             src="http://openweathermap.org/img/wn/10d@2x.png"
             className="Icon"
+            alt="Rainy weather icon. "
           />
         </span>
         <span className="Temp">7</span>
