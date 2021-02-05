@@ -82,7 +82,10 @@ export default function Forecast() {
           </div>
         </div>
       </div>
-      <footer>Coded By Karina Palomeque</footer>
+      <footer>
+        <a href="https://github.com/karyraquell/weather-react" target="_blank">Open-source code by:</a>
+          Karina Palomeque
+      </footer>
     </div>
   );
 }
